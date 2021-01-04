@@ -11,6 +11,7 @@ public class FileIO4 {
         //2.定义一个变量来存储输入数据
         int b = 0;
         //3.输入数据如果为空，字节数为-1，所有判断为-1的就终止循环，停止输入
+        //read方法执行一次就读一个字节
         while((b = fis.read())!=-1){
             System.out.println((char) b);
         }

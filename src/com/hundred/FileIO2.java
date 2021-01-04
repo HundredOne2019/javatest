@@ -3,7 +3,7 @@ package com.hundred;
 import java.io.File;
 
 /**
- * 如何删除一个多级文件夹
+ * 练习2：如何删除一个多级文件夹
  */
 public class FileIO2 {
     public static void main(String[] args) {

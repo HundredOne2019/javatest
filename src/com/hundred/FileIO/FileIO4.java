@@ -1,4 +1,4 @@
-package com.hundred;
+package com.hundred.FileIO;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

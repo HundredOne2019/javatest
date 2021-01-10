@@ -1,7 +1,6 @@
-package com.hundred.FileIO;
+package com.hundred.IO.FileIO;
 
 import java.io.File;
-import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
 

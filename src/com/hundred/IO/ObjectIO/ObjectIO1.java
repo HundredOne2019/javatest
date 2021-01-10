@@ -1,4 +1,4 @@
-package com.hundred.ObjectIO;
+package com.hundred.IO.ObjectIO;
 
 import com.hundred.VO.User;
 

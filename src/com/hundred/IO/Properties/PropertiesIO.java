@@ -1,4 +1,4 @@
-package com.hundred.Properties;
+package com.hundred.IO.Properties;
 
 import java.io.FileReader;
 import java.io.FileWriter;

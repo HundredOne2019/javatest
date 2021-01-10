@@ -1,8 +1,6 @@
-package com.hundred.CharIO;
+package com.hundred.IO.CharIO;
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class CharIO4 {

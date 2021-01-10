@@ -1,4 +1,4 @@
-package com.hundred.CodeIO;
+package com.hundred.IO.CodeIO;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;

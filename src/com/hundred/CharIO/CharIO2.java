@@ -1,4 +1,4 @@
-package com.hundred.IO.CharIO;
+package com.hundred.CharIO;
 
 import java.io.FileWriter;
 import java.io.IOException;

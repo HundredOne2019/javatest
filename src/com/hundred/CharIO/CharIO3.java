@@ -1,7 +1,10 @@
-package com.hundred.IO.CharIO;
+package com.hundred.CharIO;
 
 import java.io.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 /**
  * 练习3：读取本地文件，排序后写到指定文件

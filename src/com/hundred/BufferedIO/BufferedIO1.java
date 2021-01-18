@@ -1,4 +1,4 @@
-package com.hundred.IO.BufferedIO;
+package com.hundred.BufferedIO;
 
 import java.io.*;
 

@@ -1,20 +1,19 @@
-package com.hundred.IO.FileIO;
+package com.hundred.FileIO;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * 练习4(字节数组)：复制文件到工作目录下
+ * 练习4：复制文件到工作目录下
  */
-public class FileIO6 {
+public class FileIO5 {
     public static void main(String[] args) throws IOException {
         FileInputStream fis = new FileInputStream("D:\\iii.txt");
         FileOutputStream fos = new FileOutputStream("iii.txt");
-        byte [] bytes = new byte[1024];
-        int len;
-        while((len = fis.read(bytes)) != -1){
-            fos.write(bytes,0,len);
+        int b;
+        while((b = fis.read())!=-1){
+            fos.write(b);
         }
         fis.close();
         fos.close();

@@ -1,4 +1,4 @@
-package com.hundred.IO.FileIO;
+package com.hundred.FileIO;
 
 import java.io.File;
 

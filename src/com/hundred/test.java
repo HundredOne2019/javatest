@@ -9,11 +9,8 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class test {
-    public static void main(String[] args) {
-        File file = new File("aaa");
-        boolean b = file.isFile();
-        File file2 = new File(file,"aaa.doc");
-        boolean b2 = file2.isFile();
-        System.out.println(b+","+b2);
+    public static void main(String[] args) throws FileNotFoundException {
+        FileInputStream fis = new FileInputStream("");
+        System.out.println();
     }
 }

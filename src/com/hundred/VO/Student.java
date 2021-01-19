@@ -16,14 +16,14 @@ public class Student implements Serializable {
     @Override
     public String toString() {
         return "Student{" +
-                "username='" + username + '\'' +
+                "studentName='" + studentName + '\'' +
                 ", age='" + age + '\'' +
                 ", sex='" + sex + '\'' +
                 '}';
     }
 
-    public String getUsername() {
-        return username;
+    public String getStudentName() {
+        return studentName;
     }
 
     public void setStudentName(String studentName) {

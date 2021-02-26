@@ -2,11 +2,11 @@ package com.hundred.Thread.food;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class Cooker extends Thread{
+public class Fooder extends Thread{
 
     private ArrayBlockingQueue list;
 
-    public Cooker(ArrayBlockingQueue list){
+    public Fooder(ArrayBlockingQueue list){
         this.list = list;
     }
 
@@ -14,8 +14,8 @@ public class Cooker extends Thread{
     public void run() {
         while(true){
             try {
-                list.put("汉堡包");
-                System.out.println("厨师放入一个汉堡包");
+                Object take = list.take();
+                System.out.println("吃货吃掉一个："+take);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

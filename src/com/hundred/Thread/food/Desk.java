@@ -1,12 +1,37 @@
 package com.hundred.Thread.food;
 
 public class Desk {
-    //判断桌上有无汉堡包
-    //true  表示桌上有一个汉堡包
-    //false 表示桌上没有汉堡包
-    public static boolean flag = false;
-    //生产汉堡包的总数，也是消费汉堡包的总数
-    public static int count = 10;
-    //锁对象，设置成一个固定常量的锁
-    public static final Object lock = new Object();
+    private final Object lock = new Object();
+    private Integer count;
+    private boolean flag;
+
+    public Desk() {
+        this.count = 10;
+        this.flag = false;
+    }
+
+    public Desk(Integer count, boolean flag) {
+        this.count = count;
+        this.flag = flag;
+    }
+
+    public Object getLock() {
+        return lock;
+    }
+
+    public Integer getCount() {
+        return count;
+    }
+
+    public void setCount(Integer count) {
+        this.count = count;
+    }
+
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
+    }
 }
